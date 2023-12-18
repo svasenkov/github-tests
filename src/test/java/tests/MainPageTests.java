@@ -1,5 +1,6 @@
 package tests;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -20,8 +21,10 @@ public class MainPageTests extends TestBase {
     }
 
     @Test
+    @Disabled
     void secondTest() {}
 
     @Test
+    @Disabled
     void thirdTest() {}
 }
